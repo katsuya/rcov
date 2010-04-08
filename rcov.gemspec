@@ -28,7 +28,7 @@ PKG_FILES = ["bin/rcov", "lib/rcov.rb", "lib/rcov/lowlevel.rb", "lib/rcov/versio
              "editor-extensions/rcov.el", "setup.rb", "BLURB"]
 
 Gem::Specification.new do |s|
-  s.name = %q{rcov}
+  s.name = %q{katsuya-rcov}
   s.version = "0.9.7.1"
 
   s.required_rubygems_version = nil if s.respond_to? :required_rubygems_version=
@@ -42,7 +42,7 @@ Gem::Specification.new do |s|
   s.extensions = ["ext/rcovrt/extconf.rb"]
   s.files = PKG_FILES
   s.has_rdoc = true
-  s.homepage = %q{http://github.com/relevance/rcov}
+  s.homepage = %q{http://github.com/katsuya/rcov}
   s.rdoc_options = ["--title", "rcov code coverage tool"]
   s.require_paths = ["lib"]
   s.required_ruby_version = Gem::Requirement.new("> 0.0.0")
